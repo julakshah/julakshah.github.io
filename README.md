@@ -1,2 +1,2 @@
 # julakshah.github.io
-Personal Portfolio
+Personal Website
