@@ -1,6 +1,5 @@
 import React from 'react';
 import "./About.css"
-import AboutBox from './AboutBox';
 
 const About = () => {
   return (
@@ -60,8 +59,6 @@ const About = () => {
 
     </div>
     </div>
-
-    <AboutBox/>
 
     </section>
   )
