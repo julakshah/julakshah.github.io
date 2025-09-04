@@ -20,14 +20,14 @@ const Portfolio = () => {
       <h2 className='section__title'>Portfolio</h2>
       <div className='work__filters'>
         <span className='work__item' onClick={() => setItems(Menu)}>Everthing</span>
-        <span className='work__item' onClick={() => filterItem ("Applications")}>Applications</span>
-        <span className='work__item' onClick={() => filterItem ("Case Study")}>Case Study</span>
-        <span className='work__item' onClick={() => filterItem ("Design")}>Design</span>
+        <span className='work__item' onClick={() => filterItem ("Robotics")}>Robotics</span>
+        <span className='work__item' onClick={() => filterItem ("Software")}>Software</span>
+        <span className='work__item' onClick={() => filterItem ("Integration")}>Integration</span>
       </div>
 
       <div className='work__container grid'>
 
-      {Items.map((elem) => {
+      {Array.from(Items).reverse().map((elem) => {
         const{id,Image, title, category} = elem;
         return (
           <div className='work__card' key={id}>
@@ -38,7 +38,7 @@ const Portfolio = () => {
 
             <span className='work__category'>{category}</span>
             <h3 className='work__title'>{title}</h3>
-            <a href='https://github.com/0x1Luffy' className='work__button'></a>
+            <a href='https://github.com/julakshah' className='work__button'></a>
              <i className='icon-link work__button-icon'></i>
           </div>
         )
