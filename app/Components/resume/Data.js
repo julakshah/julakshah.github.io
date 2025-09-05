@@ -33,5 +33,13 @@ const Data =[
         title:"Small Car Performance",
         desc:"CAN Emulation/Integration and Product Design",
     },
+    {
+        id:5,
+        category:"experience",
+        icon:"icon-briefcase",
+        year: "Jul 2023 - Sep 2023",
+        title:"HAIR Lab Researcher",
+        desc:"Autonomous Mission Control and Computer Vision",
+    },
 ];
 export default Data
