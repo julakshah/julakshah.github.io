@@ -7,25 +7,25 @@ const Resume = () => {
   return (
     <section className='resume container section' id='resume'>
       <h2 className='section__title'>
-        Experience 
+        Experience
       </h2>
 
       <div className='resume__container grid'>
-        <div className='timeline grid'> 
-        {Data.map((val, id) =>{
+        <div className='timeline grid'>
+        {Array.from(Data).reverse().map((val, id) =>{
             if(val.category === "education") {
               return(
-                <Card key={id} icon={val.icon} title={val.title} year={val.year} desc={val.desc}/> 
+                <Card key={id} icon={val.icon} title={val.title} year={val.year} desc={val.desc}/>
               )
             }
         })}
         </div>
 
-        <div className='timeline grid'> 
-        {Data.map((val, index) =>{
+        <div className='timeline grid'>
+        {Array.from(Data).reverse().map((val, index) =>{
             if(val.category === "experience") {
               return(
-                <Card key={index} icon={val.icon} title={val.title} year={val.year} desc={val.desc}/> 
+                <Card key={index} icon={val.icon} title={val.title} year={val.year} desc={val.desc}/>
               )
             }
         })}

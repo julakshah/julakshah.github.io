@@ -37,7 +37,7 @@ const Data =[
         id:5,
         category:"experience",
         icon:"icon-briefcase",
-        year: "Jul 2023 - Sep 2023",
+        year: "Jan 2025 - Jun 2025",
         title:"HAIR Lab Researcher",
         desc:"Autonomous Mission Control and Computer Vision",
     },
