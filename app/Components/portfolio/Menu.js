@@ -3,49 +3,49 @@ const Menu =[
 
   {
     id:1,
-    Image: "https://i.ibb.co/Yfys33S/weather-app.png",
+    Image: "https://i.postimg.cc/dQmMq2xS/Mega-Shield.png",
     title:"Robotic Hand Mirroring",
     category: "Integration"
   },
   {
     id:2,
-    Image: "https://i.ibb.co/Yfys33S/weather-app.png",
-    title:"Vanagon CAN Emulation",
+    Image: "https://i.postimg.cc/TwDmXY2n/Voron.png",
+    title:"Voron 0.2 Build & Programming",
     category: "Integration"
   },
   {
     id:3,
-    Image: "https://i.ibb.co/Yfys33S/weather-app.png",
+    Image: "https://i.postimg.cc/tJy4sXy0/Vanagon.png",
+    title:"Vanagon CAN Emulation",
+    category: "Integration"
+  },
+  {
+    id:4,
+    Image: "https://i.postimg.cc/Gm2189NC/Eigenfaces.jpg",
     title:"Eigen Facial Recognition",
     category: "Software"
   },
   {
-    id:4,
-    Image: "https://i.ibb.co/LxcHc59/NIKE-LANDING-PAGE.png",
-    title:"Celebrity Private Jet Tracker",
-    category: "Software"
-  },
-  {
     id:5,
-    Image: "https://i.ibb.co/2tWsbWh/Hero-Section.jpg",
+    Image: "https://i.postimg.cc/C5HpXDWX/Kinova.png",
     title:"Custom Kinova Kinematics",
     category: "Robotics"
   },
   {
     id:6,
-    Image: "https://i.ibb.co/Wk2KTqs/RickShaw.jpg",
+    Image: "https://i.postimg.cc/Vk53sprs/gaussian-perspective.jpg",
     title:"3D Gaussian Splatting Demo",
     category: "Software"
   },
   {
     id:7,
-    Image: "https://i.ibb.co/zP8Srzm/Screenshot-2023-09-24-182118.png",
+    Image: "https://i.postimg.cc/J4G87DCw/AgDrone.png",
     title:"Drone Perception & Navigation",
     category: "Robotics"
   },
   {
     id:8,
-    Image: "https://i.ibb.co/Yfys33S/weather-app.png",
+    Image: "https://i.postimg.cc/L6mSSx3h/AirPong.jpg",
     title:"Air Pong",
     category: "Software"
   },

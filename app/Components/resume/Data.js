@@ -15,7 +15,6 @@ const Data =[
         icon:"icon-graduation",
         year: "2024-Present",
         title:"Electrical and Computer Engineering",
-        desc:"3.76 GPA",
     },
     {
         id:3,

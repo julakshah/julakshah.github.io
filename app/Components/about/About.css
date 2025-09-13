@@ -98,12 +98,6 @@
         top: -20px;
 
     }
-
-    .about__img {
-        justify-self: center;
-        height: 220px;
-        width: 225px;
-    }
 }
 
 @media screen and (max-width:768px) {
