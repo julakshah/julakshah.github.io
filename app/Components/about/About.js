@@ -22,35 +22,35 @@ const About = () => {
         <div className='skills__data'>
           <div className='skills__titles'>
             <h3 className='skills__name'>
-            Development
+            Robotics
             </h3>
-            <span className='skills__number'>90%</span>
-          </div>
-
-          <div className='skills__bar'>
-            <span className='skills__percentage development'></span>
-          </div>
-        </div>
-
-        <div className='skills__data'>
-          <div className='skills__titles'>
-            <h3 className='skills__name'>UI/UX Designing</h3>
             <span className='skills__number'>80%</span>
           </div>
 
           <div className='skills__bar'>
-            <span className='skills__percentage ui__design'></span>
+            <span className='skills__percentage skill__one'></span>
           </div>
         </div>
 
         <div className='skills__data'>
           <div className='skills__titles'>
-            <h3 className='skills__name'>DSA</h3>
-            <span className='skills__number'>40%</span>
+            <h3 className='skills__name'>Mathematics</h3>
+            <span className='skills__number'>67%</span>
           </div>
 
           <div className='skills__bar'>
-            <span className='skills__percentage DSA'></span>
+            <span className='skills__percentage skill__two'></span>
+          </div>
+        </div>
+
+        <div className='skills__data'>
+          <div className='skills__titles'>
+            <h3 className='skills__name'>Coffee</h3>
+            <span className='skills__number'>98.6%</span>
+          </div>
+
+          <div className='skills__bar'>
+            <span className='skills__percentage skill__three'></span>
           </div>
         </div>
 

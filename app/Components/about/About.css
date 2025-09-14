@@ -1,5 +1,4 @@
 .about__container {
-    grid-template-columns: 3fr 9fr;
     column-gap: 1.875rem;
 }
 
@@ -14,23 +13,15 @@
     position: relative;
 }
 
-.about__data::before {
-    content: '';
-    width: 0%;
-    height: 0%;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 15px solid var(--container-color) ;
-    position: absolute;
-    left: 0.93rem;
-    left: -0.93rem;
-    top: 20%;
-}
-
 .about__description {
     margin-bottom: 1rem;
     text-align: justify;
 
+}
+
+.btn {
+  justify-self: center;
+  align-self: end;
 }
 
 .about__skills{
@@ -68,18 +59,18 @@
     background-color: var(--first-color);
 }
 
-.development {
+.skill__one {
     width: 90%;
     background-color: rgb(255, 209, 92);
 }
 
-.ui__design {
-    width: 80%;
+.skill__two {
+    width: 67%;
     background-color: rgb(255, 76, 96);
 }
 
-.DSA {
-    width: 40%;
+.skill__three {
+    width: 98.6%;
     background-color: rgb(108, 108, 299);
 }
 
