@@ -9,7 +9,7 @@ const Sidebar = () => {
   return (
    <>
     <aside className={toggle ? "aside show-menu" : "aside"}>
-    <a href='#home' className='nav__logo'>
+    <a href='https://www.instagram.com/olin_acronym/' className='nav__logo'>
     <img src='https://i.postimg.cc/gJDGp6fK/Acronym-Mug.png' alt='sideLogo' />
     </a>
 
