@@ -21,6 +21,11 @@
     gap: 1.875rem;
 }
 
+.work__card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
 .work__card{
     position: relative;
     overflow: hidden;

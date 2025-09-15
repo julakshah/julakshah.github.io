@@ -28,19 +28,23 @@ const Portfolio = () => {
       <div className='work__container grid'>
 
       {Array.from(Items).reverse().map((elem) => {
-        const{id,Image, title, category} = elem;
+        const{id,Image, title, category, link} = elem;
         return (
-          <div className='work__card' key={id}>
-            <div className='work__thumbnail'>
-              <img src={Image} alt="" className='work__img'/>
-              <div className='work__mask'></div>
-            </div>
+          <a href={link || '#'}
+          className='work__card-link'
+          key={id}
+          >
+            <div className='work__card'>
+              <div className='work__thumbnail'>
+                <img src={Image} alt="" className='work__img'/>
+                <div className='work__mask'></div>
+              </div>
 
-            <span className='work__category'>{category}</span>
-            <h3 className='work__title'>{title}</h3>
-            <a href='https://github.com/julakshah' className='work__button'></a>
-             <i className='icon-link work__button-icon'></i>
-          </div>
+              <span className='work__category'>{category}</span>
+              <h3 className='work__title'>{title}</h3>
+              <div className='work__button'></div>
+            </div>
+          </a>
         )
       })}
 
