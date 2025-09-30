@@ -13,11 +13,11 @@ const Contact = () => {
         <form action='' className='contact__form'>
           <div className='contact__form-group'>
             <div className='contact__form-div'>
-              <input type='text' className='contact__form-input' placeholder={"What\'s Your Name?"}/>
+              <input type='text' className='contact__form-input' placeholder={"Name"}/>
             </div>
 
             <div className='contact__form-div'>
-              <input type='email' className='contact__form-input' placeholder='Your Email'/>
+              <input type='email' className='contact__form-input' placeholder='Email'/>
             </div>
           </div>
 
@@ -26,7 +26,7 @@ const Contact = () => {
             </div>
 
             <div className='contact__form-div contact__form-area'>
-              <textarea name='' id='' cols={30} rows={10} className='contact__form-input' placeholder='Julian, boy do I have an offer for you.'></textarea>
+              <textarea name='' id='' cols={30} rows={10} className='contact__form-input' placeholder='Hello,'></textarea>
             </div>
              <button className='btn'>Send Message</button>
         </form>

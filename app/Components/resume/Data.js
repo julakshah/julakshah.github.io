@@ -5,7 +5,7 @@ const Data =[
         id:1,
         category:"education",
         icon:"icon-graduation",
-        year: "2020-2024",
+        year: "2020 - 2024",
         title:"High School Diploma",
         desc:"4.21 WGPA",
     },
@@ -13,7 +13,7 @@ const Data =[
         id:2,
         category:"education",
         icon:"icon-graduation",
-        year: "2024-Present",
+        year: "2024 - Present",
         title:"Electrical and Computer Engineering",
     },
     {

@@ -35,7 +35,7 @@ const About = () => {
         <div className='skills__data'>
           <div className='skills__titles'>
             <h3 className='skills__name'>Mathematics</h3>
-            <span className='skills__number'>67%</span>
+            <span className='skills__number'>70%</span>
           </div>
 
           <div className='skills__bar'>
