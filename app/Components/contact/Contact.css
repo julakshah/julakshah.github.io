@@ -1,87 +1,83 @@
 .contact.section {
-    padding-bottom: 6.25rem;
+  padding-bottom: 3.25rem;
 }
 
-.contact__container {
-    grid-template-columns: 4fr 8fr;
-    column-gap: 1.875rem;
+.contact__container-info {
+  padding: 1.875rem;
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.875rem;
+  align-items: flex-start;
+  position: relative;
+  text-align: center;
+}
+
+.contact__container-card {
+  padding: 1.875rem;
+  background-color: #44d7b6;
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.875rem;
+  align-items: flex-start;
+  position: relative;
 }
 
 .contact__title {
-    font-size: var(--h3-font-size);
-    margin-top: 0.5rem;
+  font-size: var(--h3-font-size);
+  margin-top: 0.5rem;
 }
 
-.contact__form-group {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    column-gap: 1.5rem;
+.container__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
 }
 
-.contact__form-div{
-    position: relative;
-    margin-bottom: 1.875rem;
-    height: 3.75rem;
+.contact__container {
+  margin-top: 0.75rem;
+  margin-bottom: 6rem;
 }
 
-.contact__form-input {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    box-shadow: var(--shadow);
-    background-color: var(--container-color);
-    color: var(--text-color);
-    border: none;
-    outline: none;
-    border-radius: 1.875rem;
-    padding: 0.625rem 1.875rem;
-    z-index: 1;
-
+.info {
+  grid-template-columns: 4fr 4fr;
+  column-gap: 1.875rem;
+  margin-left: 0.75rem;
 }
 
-.contact__form-area {
-    height: 10.25rem;
-
-}
-.contact__form-area{
-    resize: none;
+.contact__method {
+  color: #ff4c60;
+  font-size: medium;
 }
 
-@media screen and (max-width: 1024px) {
-    .contact__container {
-        grid-template-columns: 300px 360px;
-        justify-content: center;
-    }
-
-    .contact__form-group {
-        grid-template-columns: 1fr;
-    }
+.contact {
+  font-size: x-large;
 }
 
-@media screen and (max-width: 768px) {
-    .contact__container {
-        grid-template-columns: 310px;
-        row-gap: 1.875rem;
-    }
-    
-    .contact__info {
-        text-align: center;
-    }
+.contact__note {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: "thanks";
+  color: #ff4c60;
+  font-size: 3.5rem;
+  font-style: italic;
+  align: center;
+  text-align: center;
 }
 
-
-@media screen and (max-width: 350px) {
-    .contact__container {
-        grid-template-columns: 1fr;
-    }
+.info__method {
+  margin-top: 2rem;
 }
 
-@media screen and (max-width: 576px) {
+.btn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  justify-content: center;
+}
 
-        .about__container {
-            grid-template-columns: 320px;
-        }
-
-    }
+@font-face {
+  font-family: thanks;
+  src: url(LeonettaScript.woff);
+}
