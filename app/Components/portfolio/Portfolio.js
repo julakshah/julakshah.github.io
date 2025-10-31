@@ -19,7 +19,7 @@ const Portfolio = () => {
       <h2 className="section__title">Portfolio</h2>
       <div className="work__filters">
         <span className="work__item" onClick={() => setItems(Menu)}>
-          Everthing
+          Everything
         </span>
         <span className="work__item" onClick={() => filterItem("Robotics")}>
           Robotics
