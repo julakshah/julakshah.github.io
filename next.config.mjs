@@ -1,12 +1,23 @@
 import createMDX from "@next/mdx";
-const nextConfig = {
-  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"], // to include markdown
-  output: "export", // <=== enables static exports reactStrictMode: true,
-  reactStrictMode: true,
-};
 
+/** @type {import('next').NextConfig} */
 const withMDX = createMDX({
-  extension: /\.(md|mdx)$/, // process md files with MDX
+  // Optional: enable `.mdx` extension support
+  extension: /\.mdx?$/,
 });
+
+const nextConfig = {
+  // Add the MDX extension to page routing
+  pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+  },
+};
 
 export default withMDX(nextConfig);
