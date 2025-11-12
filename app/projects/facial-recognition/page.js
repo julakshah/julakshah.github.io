@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Post from "./post.md";
+import Post from "./post.mdx";
 import Sidebar from "../../Components/sidebar/Sidebar";
 
 export default function FacialRecognition() {
