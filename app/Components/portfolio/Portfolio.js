@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import "./Portfolio.css";
 import Menu from "./Menu";
 
@@ -16,7 +17,7 @@ const Portfolio = () => {
   };
   return (
     <section className="work container section" id="work">
-      <h2 className="section__title">Portfolio</h2>
+      <h2 className="section__title">Projects</h2>
       <div className="work__filters">
         <span className="work__item" onClick={() => setItems(Menu)}>
           Everthing
@@ -38,7 +39,7 @@ const Portfolio = () => {
           .map((elem) => {
             const { id, Image, title, category, link } = elem;
             return (
-              <a href={link || "#"} className="work__card-link" key={id}>
+              <Link href={link || "#"} className="work__card-link" key={id}>
                 <div className="work__card">
                   <div className="work__thumbnail">
                     <img src={Image} alt="" className="work__img" />
@@ -48,7 +49,7 @@ const Portfolio = () => {
                   <span className="work__category">{category}</span>
                   <h3 className="work__title">{title}</h3>
                 </div>
-              </a>
+              </Link>
             );
           })}
       </div>
