@@ -36,7 +36,7 @@ const Data = [
     id: 5,
     category: "experience",
     icon: "icon-briefcase",
-    year: "Sep 2024 - Oct 2025",
+    year: "Sep 2024 - Present",
     title: "Robot Lab Researcher",
     desc: "Autonomous Mission Control and Computer Vision",
   },

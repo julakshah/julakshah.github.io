@@ -1,7 +1,6 @@
 import "./Home.css";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
-import Shapes from "./Shapes";
 
 const Home = () => {
   return (
@@ -27,8 +26,6 @@ const Home = () => {
           </a>
           <ScrollDown />
         </div>
-
-        <Shapes />
       </section>
     </>
   );

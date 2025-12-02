@@ -36,7 +36,7 @@ const Menu = [
   },
   {
     id: 6,
-    Image: "https://i.postimg.cc/Vk53sprs/gaussian-perspective.jpg",
+    Image: "https://i.postimg.cc/7YSVbk9B/gaussian-foot.jpg",
     title: "3D Gaussian Splatting",
     category: "Software",
     link: "projects/gaussian-splatting",
@@ -54,6 +54,20 @@ const Menu = [
     title: "Video Game: Air Pong",
     category: "Software",
     link: "https://olincollege.github.io/air-pong/",
+  },
+  {
+    id: 9,
+    Image: "https://i.postimg.cc/fykGZFZq/cv2output_first_success.jpg",
+    title: "[IP] Software For Swarm Robot Chair & Trashcan",
+    category: "Robotics",
+    link: "projects/desk-on-demand",
+  },
+  {
+    id: 10,
+    Image: "https://i.postimg.cc/xd38bkmL/camera-calib.jpg",
+    title: "[IP] Guassian Splatting for 3D Reconstruction",
+    category: "Robotics",
+    link: "projects/gaussian-guy",
   },
 ];
 export default Menu;
