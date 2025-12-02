@@ -7,7 +7,7 @@ const Data = [
     icon: "icon-graduation",
     year: "2020 - 2024",
     title: "High School Diploma",
-    desc: "4.21 WGPA",
+    desc: "Relevant Coursework - Calc BC, Robotics, Computer Science",
   },
   {
     id: 2,
