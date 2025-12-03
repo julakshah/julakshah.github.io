@@ -1,6 +1,16 @@
 import "./Home.css";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHouse,
+  faUser,
+  faBriefcase,
+  faEnvelope,
+  faGraduationCap,
+  faFolderOpen,
+  faComment,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   return (
@@ -9,8 +19,8 @@ const Home = () => {
         <div className="intro">
           <img
             src="https://i.ibb.co/tMH69B5z/Untitled-1.png"
-            height={145}
-            width={160}
+            height={203}
+            width={242}
             alt=""
             className="home__img"
           />

@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const HeaderSocials = () => {
   return (
@@ -8,7 +10,7 @@ const HeaderSocials = () => {
         className="home__social-link"
         target="_blank"
       >
-        <i className="fa-brands fa-github"></i>
+        <FontAwesomeIcon icon={faGithub} />
       </a>
 
       <a
@@ -16,7 +18,7 @@ const HeaderSocials = () => {
         className="home__social-link"
         target="_blank"
       >
-        <i className="fa-brands fa-linkedin"></i>
+        <FontAwesomeIcon icon={faLinkedin} />
       </a>
     </div>
   );
