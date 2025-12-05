@@ -20,9 +20,9 @@ const About = () => {
               and producing short films.
             </p>
             <a
-              href="https://drive.google.com/file/d/152osHKPXtMys9BIB4D68s6cqMsXrlIn1/view?usp=sharing"
+              href="resume/resume.pdf"
               className="btn"
-              download={"Julian's Resume"}
+              download="julian-shah-resume.pdf"
             >
               Download Resume
             </a>
@@ -54,7 +54,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Coffee</h3>
-                <span className="skills__number">99%</span>
+                <span className="skills__number">90%</span>
               </div>
 
               <div className="skills__bar">
